@@ -36,8 +36,8 @@ public class Main {
         System.out.println("Средняя сумма трат за месяц составила " + srZnach + " рублей");
 
         System.out.println("Задание 4");
-        char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
-        for (int index= reverseFullName.length-1;index>-1;index--){
+        char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        for (int index = reverseFullName.length - 1; index > -1; index--) {
             System.out.print(reverseFullName[index]);
         }
 
