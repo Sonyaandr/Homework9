@@ -21,7 +21,7 @@ public class Main {
 
         for (int index = 0; index < wasteWeek.length; index++) {
             if (counterMin > wasteWeek[index]) {
-                counterMax = wasteWeek[index];
+                counterMin = wasteWeek[index];
             }
         }
         System.out.println("Минимальная сумма трат за неделю составила " + counterMin + " рублей. Максимальная сумма трат за неделю составила " + counterMax + " рублей");
